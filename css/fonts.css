@@ -1,0 +1,273 @@
+/* Fonts */
+
+@font-face {
+   font-family: 'Rubik';
+   src:
+      url('../fonts/Rubik-Black.woff') format('woff');
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Rubik';
+   src:
+      url('../fonts/Rubik-Regular.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Rubik';
+   src:
+      url('../fonts/Rubik-Bold.woff') format('woff');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Copse';
+   src:
+      url('../fonts/Copse-Regular.woff') format('woff'),
+      url('../fonts/Copse-Regular.woff2') format('woff2');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Inter';
+   src:
+      url('../fonts/Inter-Regular.woff2') format('woff2'),
+      url('../fonts/Inter-Regular.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Inter';
+   src:
+      url('../fonts/Inter-SemiBold.woff2') format('woff2'),
+      url('../fonts/Inter-SemiBold.woff') format('woff');
+   font-weight: 600;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Inter';
+   src:
+      url('../fonts/Inter-Bold.woff2') format('woff2'),
+      url('../fonts/Inter-Bold.woff') format('woff');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Inter';
+   src:
+      url('../fonts/Inter-ExtraBold.woff2') format('woff2'),
+      url('../fonts/Inter-ExtraBold.woff') format('woff');
+   font-weight: 800;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Inter';
+   src:
+      url('../fonts/Inter-Medium.woff2') format('woff2'),
+      url('../fonts/Inter-Medium.woff') format('woff');
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Open Sans';
+   src:
+      url('../fonts/OpenSans-Bold.woff') format('woff');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Open Sans';
+   src:
+      url('../fonts/OpenSans-Regular.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Open Sans';
+   src:
+      url('../fonts/OpenSans-SemiBold.woff') format('woff');
+   font-weight: 600;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Open Sans Condensed';
+   src:
+      url('../fonts/OpenSansCondensed-Bold.woff') format('woff');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Oswald';
+   src:
+      url('../fonts/Oswald-SemiBold.woff') format('woff');
+   font-weight: 600;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Oswald';
+   src:
+      url('../fonts/Oswald-Bold.woff') format('woff');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Oswald';
+   src:
+      url('../fonts/Oswald-Regular.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Roboto';
+   src:
+      url('../fonts/Roboto-Bold.woff') format('woff');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Roboto';
+   src:
+      url('../fonts/Roboto-Regular.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Roboto';
+   src:
+      url('../fonts/Roboto-Medium.woff') format('woff');
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+
+/* Fonts icons */
+
+@font-face {
+   font-family: 'icomoon';
+   src: url('../fonts/icomoon.eot?sb2biv');
+   src: url('../fonts/icomoon.eot?sb2biv#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?sb2biv') format('truetype'),
+      url('../fonts/icomoon.woff?sb2biv') format('woff'),
+      url('../fonts/icomoon.svg?sb2biv#icomoon') format('svg');
+   font-weight: normal;
+   font-style: normal;
+   font-display: block;
+}
+
+[class^="icon-"]::before,
+[class*=" icon-"]::before {
+   /* use !important to prevent issues with browser extensions that change fonts */
+   font-family: 'icomoon' !important;
+   speak: never;
+   font-style: normal;
+   font-weight: normal;
+   font-variant: normal;
+   text-transform: none;
+   line-height: 1;
+
+   /* Better Font Rendering =========== */
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Bur:before {
+   content: "\e900";
+}
+
+.icon-close:before {
+   content: "\e901";
+   color: #d5cfac;
+}
+
+.icon-Fsb .path1:before {
+   content: "\e902";
+   color: rgb(165, 181, 134);
+}
+
+.icon-Fsb .path2:before {
+   content: "\e903";
+   margin-left: -1em;
+   color: rgb(255, 255, 255);
+}
+
+.icon-Instag .path1:before {
+   content: "\e904";
+   color: rgb(255, 255, 255);
+}
+
+.icon-Instag .path2:before {
+   content: "\e905";
+   margin-left: -1em;
+   color: rgb(165, 181, 134);
+}
+
+.icon-left:before {
+   content: "\e906";
+}
+
+.icon-Line:before {
+   content: "\e907";
+   color: #174646;
+}
+
+.icon-Logo .path1:before {
+   content: "\e908";
+   color: rgb(255, 253, 206);
+}
+
+.icon-Logo .path2:before {
+   content: "\e909";
+   margin-left: -1em;
+   color: rgb(0, 0, 0);
+}
+
+.icon-Point:before {
+   content: "\e90a";
+   color: #dde0e4;
+}
+
+.icon-right:before {
+   content: "\e90b";
+}
+
+.icon-Youtub:before {
+   content: "\e90c";
+   color: #fff;
+}
