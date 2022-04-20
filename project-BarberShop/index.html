@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BarberShop</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="shortcut icon" href="./img/favicon-32x32.png" type="image/png" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__wrapper container">
+        <div class="header__logo">
+          <a class="header__logo-link" href="#">
+            <svg
+              width="65"
+              height="65"
+              viewBox="0 0 65 65"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="32.5" cy="32.5" r="32.5" fill="#FFFDCE" />
+              <path
+                d="M32 34.7808L26.8918 40.2005C27.8808 41.9802 28.2242 44.0815 27.8574 46.1105C27.4906 48.1395 26.439 49.957 24.8996 51.2222C23.3602 52.4874 21.4387 53.1135 19.4953 52.9831C17.552 52.8527 15.7201 51.9747 14.3432 50.5138C12.9663 49.053 12.1389 47.1094 12.016 45.0475C11.8931 42.9856 12.4831 40.947 13.6756 39.3137C14.8681 37.6804 16.5811 36.5646 18.4934 36.1755C20.4058 35.7863 22.3863 36.1506 24.0637 37.1999L29.1719 31.7802L17.1295 19.0054C16.7576 18.6113 16.4625 18.1432 16.2612 17.628C16.0599 17.1127 15.9563 16.5605 15.9563 16.0027C15.9563 15.445 16.0599 14.8927 16.2612 14.3775C16.4625 13.8622 16.7576 13.3942 17.1295 13L32 28.7817L46.8705 13.0042C47.6204 13.8001 48.0417 14.8794 48.0417 16.0048C48.0417 17.1302 47.6204 18.2095 46.8705 19.0054L34.8301 31.7802L39.9363 37.1999C41.6137 36.1506 43.5942 35.7863 45.5066 36.1755C47.4189 36.5646 49.1319 37.6804 50.3244 39.3137C51.5169 40.947 52.1069 42.9856 51.984 45.0475C51.8611 47.1094 51.0337 49.053 49.6568 50.5138C48.2799 51.9747 46.448 52.8527 44.5047 52.9831C42.5613 53.1135 40.6398 52.4874 39.1004 51.2222C37.561 49.957 36.5094 48.1395 36.1426 46.1105C35.7759 44.0815 36.1192 41.9802 37.1082 40.2005L32 34.7808ZM19.9996 48.7566C21.0605 48.7566 22.0779 48.3095 22.8281 47.5136C23.5783 46.7176 23.9997 45.6381 23.9997 44.5125C23.9997 43.3869 23.5783 42.3074 22.8281 41.5115C22.0779 40.7156 21.0605 40.2684 19.9996 40.2684C18.9387 40.2684 17.9212 40.7156 17.171 41.5115C16.4209 42.3074 15.9994 43.3869 15.9994 44.5125C15.9994 45.6381 16.4209 46.7176 17.171 47.5136C17.9212 48.3095 18.9387 48.7566 19.9996 48.7566ZM44.0004 48.7566C45.0613 48.7566 46.0788 48.3095 46.829 47.5136C47.5791 46.7176 48.0006 45.6381 48.0006 44.5125C48.0006 43.3869 47.5791 42.3074 46.829 41.5115C46.0788 40.7156 45.0613 40.2684 44.0004 40.2684C42.9395 40.2684 41.9221 40.7156 41.1719 41.5115C40.4217 42.3074 40.0003 43.3869 40.0003 44.5125C40.0003 45.6381 40.4217 46.7176 41.1719 47.5136C41.9221 48.3095 42.9395 48.7566 44.0004 48.7566Z"
+                fill="black"
+              />
+            </svg>
+            <span class="header__name"> Hair & There </span>
+          </a>
+        </div>
+
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <a class="header__link" href="#gallery">Галерея</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#services">Услуги</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#contacts">Контакты</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#reviews">Отзывы</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__box">
+          <a class="header__btn btn btn--yellow" href="#form">
+            Заказать звонок
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="head">
+        <div class="head__wrap container">
+          <h1 class="head__name">Hair & There</h1>
+          <div class="head__text">
+            Мужское пространство<br />
+            где уважают твои ценности
+          </div>
+          <div class="head__btn-box">
+            <a class="head__btn btn btn--green btn--medium" href="#form">
+              Записаться на прием
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-us">
+        <div class="about-us__wrap container">
+          <div class="about-us__image">
+            <img src="./img/about-us.png" alt="about-us" />
+          </div>
+          <div class="about-us__box">
+            <h2 class="about-us__head">О нас</h2>
+            <div class="about-us__text">
+              Барбершоп <strong>"Hair & There"</strong> - это настоящий мужской
+              клуб,<br />
+              где всегда открыты двери для дружеского общения.<br />
+              У нас Вы получите не только качественную, стильную<br />
+              стрижку или бритье бороды, а и отличную<br />
+              непринужденную атмосферу.
+            </div>
+            <div class="about-us__link">
+              <a class="about-us__link-further" href="#"
+                >Читать дальше
+                <svg
+                  class="about-us__link-icon"
+                  width="28"
+                  height="28"
+                  viewBox="0 0 28 28"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_178_5)">
+                    <path
+                      d="M26.978 11.5256L21.6277 6.17529L19.978 7.82496L24.9503 12.7985L0 12.8335V15.1668L25.0203 15.1318L19.9768 20.1753L21.6265 21.825L26.978 16.4746C27.6322 15.8172 27.9994 14.9275 27.9994 14.0001C27.9994 13.0727 27.6322 12.183 26.978 11.5256Z"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_178_5">
+                      <rect width="28" height="28" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="barbers">
+        <div class="barbers__wrap container">
+          <div class="barbers__box">
+            <h2 class="barbers__head">Наши барберы</h2>
+            <div class="barbers__gallery">
+              <div class="barbers__image">
+                <div class="barbers__image-wrap">
+                  <img src="./img/sw1.png" alt="img1" width="315" />
+                  <div class="barbers__text1">
+                    <div
+                      class="barbers__link"
+                      title="Сергей Лагутин-стаж работы-5лет"
+                    >
+                      АВГАН<br />
+                      старший барбер
+                    </div>
+                  </div>
+                </div>
+                <div class="barbers__image-wrap">
+                  <img src="./img/sw2.png" alt="img2" width="315" />
+                  <div class="barbers__text2">
+                    <div
+                      class="barbers__link"
+                      title="Влад Бардашов-стаж работы-3года"
+                    >
+                      ВЛАД<br />барбер
+                    </div>
+                  </div>
+                </div>
+                <div class="barbers__image-wrap">
+                  <img src="./img/sw3.png" alt="img3" width="315" />
+                  <div class="barbers__text3">
+                    <div
+                      class="barbers__link"
+                      title="Вячеслав Костюк-стаж работы-1год"
+                    >
+                      ВЯЧЕСЛАВ<br />барбер
+                    </div>
+                  </div>
+                </div>
+                <div class="barbers__image-wrap">
+                  <img src="./img/sw4.png" alt="img4" width="315" />
+                  <div class="barbers__text4">
+                    <div
+                      class="barbers__link"
+                      title="Игорь Шатунов-стаж работы-4года"
+                    >
+                      ИГОРЬ<br />барбер
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services">
+        <div class="services__wrap container">
+          <div class="services__box">
+            <h2 class="services__head" id="services">Услуги</h2>
+            <ul class="services__list">
+              <li class="services__item">
+                <span class="services__text">Стрижка</span>
+                <span class="services__price">300$</span>
+              </li>
+              <li class="services__item">
+                <span class="services__text">Стрижка машинкой</span>
+                <span class="services__price">250$</span>
+              </li>
+              <li class="services__item">
+                <span class="services__text">Корекция стрижки</span>
+                <span class="services__price">150$</span>
+              </li>
+              <li class="services__item">
+                <span class="services__text">Стрижка бороды</span>
+                <span class="services__price">200$</span>
+              </li>
+              <li class="services__item">
+                <span class="services__text">Корекция бороды</span>
+                <span class="services__price">150$</span>
+              </li>
+              <li class="services__item">
+                <span class="services__text">Комуфляж седины</span>
+                <span class="services__price">200$</span>
+              </li>
+              <li class="services__item">
+                <span class="services__text">Укладка</span>
+                <span class="services__price">100$</span>
+              </li>
+              <li class="services__item">
+                <span class="services__text">Королевское бритье</span>
+                <span class="services__price">250$</span>
+              </li>
+              <li class="services__item">
+                <span class="services__text"
+                  >Восковое удаление волос ушей/носа</span
+                >
+                <span class="services__price">50$</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <div class="gallery__wrap container">
+          <h2 class="gallery__head" id="gallery">Галерея</h2>
+          <div class="gallery__box">
+            <div class="image-slider swiper-container">
+              <div class="image-slider__wrapper swiper-wrapper">
+                <div class="image-slider__slide swiper-slide">
+                  <div class="image-slider__image">
+                    <img src="./img/sl1.png" alt="картинка" />
+                  </div>
+                </div>
+                <div class="image-slider__slide swiper-slide">
+                  <div class="image-slider__image">
+                    <img src="./img/sl2.png" alt="картинка" />
+                  </div>
+                </div>
+                <div class="image-slider__slide swiper-slide">
+                  <div class="image-slider__image">
+                    <img src="./img/sl3.png" alt="картинка" />
+                  </div>
+                </div>
+                <div class="image-slider__slide swiper-slide">
+                  <div class="image-slider__image">
+                    <img src="./img/sl4.png" alt="картинка" />
+                  </div>
+                </div>
+                <div class="image-slider__slide swiper-slide">
+                  <div class="image-slider__image">
+                    <img src="./img/sl5.png" alt="картинка" />
+                  </div>
+                </div>
+                <div class="image-slider__slide swiper-slide">
+                  <div class="image-slider__image">
+                    <img src="./img/sl6.png" alt="картинка" />
+                  </div>
+                </div>
+                <div class="image-slider__slide swiper-slide">
+                  <div class="image-slider__image">
+                    <img src="./img/sl7.png" alt="картинка" />
+                  </div>
+                </div>
+                <div class="image-slider__slide swiper-slide">
+                  <div class="image-slider__image">
+                    <img src="./img/sl8.png" alt="картинка" />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="image-slider__button image-slider__button--prev swiper-button-prev"
+              ></div>
+              <div
+                class="image-slider__button image-slider__button--next swiper-button-next"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contacts">
+        <div class="contacts__wrap">
+          <h2 class="contacts__head" id="contacts">Контакты</h2>
+        </div>
+        <div class="contacts__form-box">
+          <form class="contacts__form" action="">
+            <fieldset class="contacts__fieldset">
+              <p class="contacts__legend" id="form">Оставьте свои контакты</p>
+              <p class="contacts__text">Мы перезвоним за 60 секунд!</p>
+              <div class="contacts__body">
+                <div class="contacts__item">
+                  <div class="contacts__name-text">
+                    <label for="name">Имя</label>
+                  </div>
+                  <div class="contacts__name">
+                    <input type="text" id="name" />
+                  </div>
+                </div>
+                <div class="contacts__item">
+                  <div class="contacts__number-text">
+                    <label for="number">Номер телефона</label>
+                  </div>
+                  <div class="contacts__number">
+                    <input type="number" id="number" />
+                  </div>
+                </div>
+                <div class="contacts__item">
+                  <div class="contacts__message-text">
+                    <label for="message">Сообщение</label>
+                  </div>
+                  <div class="contacts__message">
+                    <textarea
+                      name="message"
+                      id="message"
+                      cols="18"
+                      rows="1"
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="contacts__button">
+                <button
+                  class="contacts__btn btn btn--medium btn--green"
+                  type="submit"
+                >
+                  Заказать звонок
+                </button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+
+      <section class="reviews">
+        <div class="reviews__wrap container">
+          <h2 class="reviews__head" id="reviews">Отзывы</h2>
+          <div class="reviews__box">
+            <div
+              class="image-slider swiper-container swiper-container--reviews"
+            >
+              <div class="image-slider__wrapper swiper-wrapper">
+                <div class="image-slider__slide swiper-slide">
+                  <div class="image-slider__image image-slider__image--small">
+                    <div class="reviews__text">
+                      Первый раз был в Hair & There, мастер Влад просто лучший!
+                      Доверился его креативу и не прогадал, ещё раз благодарю!
+                      Теперь только к вам!
+                    </div>
+                    <div class="reviews__user">
+                      <div class="reviews__image">
+                        <img src="./img/r1.svg" alt="картинка" />
+                      </div>
+                      <div class="reviews__image-name">Дмитрий</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="image-slider__slide swiper-slide">
+                  <div class="image-slider__image image-slider__image--small">
+                    <div class="reviews__text">
+                      Отлично стрижёт, вежливый и общительный мастер по имени
+                      Вячеслав. Стильно всё оформлено и очень атмосферно, еще
+                      вдохновил их дружный коллектив.
+                    </div>
+                    <div class="reviews__user">
+                      <div class="reviews__image">
+                        <img src="./img/r2.svg" alt="картинка" />
+                      </div>
+                      <div class="reviews__image-name">Руслан</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="image-slider__slide swiper-slide">
+                  <div class="image-slider__image image-slider__image--small">
+                    <div class="reviews__text">
+                      Хочу выразить огромную благодарность Авгану за
+                      профессионализм и уделенное внимание! У вас все на высшем
+                      уровне, так держать, еще раз огромное спасибо!
+                    </div>
+                    <div class="reviews__user">
+                      <div class="reviews__image">
+                        <img src="./img/r3.svg" alt="картинка" />
+                      </div>
+                      <div class="reviews__image-name">Влад</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="image-slider__slide swiper-slide">
+                  <div class="image-slider__image image-slider__image--small">
+                    <div class="reviews__text">
+                      Давно не получал удовольствия от стрижки. Аккуратность и
+                      профессионализм в деле. Спасибо мастеру Игорю!
+                    </div>
+                    <div class="reviews__user">
+                      <div class="reviews__image">
+                        <img src="./img/r4.svg" alt="картинка" />
+                      </div>
+                      <div class="reviews__image-name">Андрей</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="image-slider__slide swiper-slide">
+                  <div class="image-slider__image image-slider__image--small">
+                    <div class="reviews__text">
+                      Сегодня впервые пришел в Hair & There, отлично подстригли,
+                      мастера своего дела! Крутая атмосфера, действительно
+                      получаешь удовольствие) Спасибо!
+                    </div>
+                    <div class="reviews__user">
+                      <div class="reviews__image">
+                        <img src="./img/r5.svg" alt="картинка" />
+                      </div>
+                      <div class="reviews__image-name">Мурат</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="image-slider__button image-slider__button--prev swiper-button-prev swiper-button-prev--small"
+              ></div>
+              <div
+                class="image-slider__button image-slider__button--next swiper-button-next swiper-button-next--small"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__wrapper container">
+        <div class="footer__logo">
+          <div class="footer__logo-image">
+            <svg
+              width="65"
+              height="65"
+              viewBox="0 0 65 65"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="32.5" cy="32.5" r="32.5" fill="#FFFDCE" />
+              <path
+                d="M32 34.7808L26.8918 40.2005C27.8808 41.9802 28.2242 44.0815 27.8574 46.1105C27.4906 48.1395 26.439 49.957 24.8996 51.2222C23.3602 52.4874 21.4387 53.1135 19.4953 52.9831C17.552 52.8527 15.7201 51.9747 14.3432 50.5138C12.9663 49.053 12.1389 47.1094 12.016 45.0475C11.8931 42.9856 12.4831 40.947 13.6756 39.3137C14.8681 37.6804 16.5811 36.5646 18.4934 36.1755C20.4058 35.7863 22.3863 36.1506 24.0637 37.1999L29.1719 31.7802L17.1295 19.0054C16.7576 18.6113 16.4625 18.1432 16.2612 17.628C16.0599 17.1127 15.9563 16.5605 15.9563 16.0027C15.9563 15.445 16.0599 14.8927 16.2612 14.3775C16.4625 13.8622 16.7576 13.3942 17.1295 13L32 28.7817L46.8705 13.0042C47.6204 13.8001 48.0417 14.8794 48.0417 16.0048C48.0417 17.1302 47.6204 18.2095 46.8705 19.0054L34.8301 31.7802L39.9363 37.1999C41.6137 36.1506 43.5942 35.7863 45.5066 36.1755C47.4189 36.5646 49.1319 37.6804 50.3244 39.3137C51.5169 40.947 52.1069 42.9856 51.984 45.0475C51.8611 47.1094 51.0337 49.053 49.6568 50.5138C48.2799 51.9747 46.448 52.8527 44.5047 52.9831C42.5613 53.1135 40.6398 52.4874 39.1004 51.2222C37.561 49.957 36.5094 48.1395 36.1426 46.1105C35.7759 44.0815 36.1192 41.9802 37.1082 40.2005L32 34.7808ZM19.9996 48.7566C21.0605 48.7566 22.0779 48.3095 22.8281 47.5136C23.5783 46.7176 23.9997 45.6381 23.9997 44.5125C23.9997 43.3869 23.5783 42.3074 22.8281 41.5115C22.0779 40.7156 21.0605 40.2684 19.9996 40.2684C18.9387 40.2684 17.9212 40.7156 17.171 41.5115C16.4209 42.3074 15.9994 43.3869 15.9994 44.5125C15.9994 45.6381 16.4209 46.7176 17.171 47.5136C17.9212 48.3095 18.9387 48.7566 19.9996 48.7566ZM44.0004 48.7566C45.0613 48.7566 46.0788 48.3095 46.829 47.5136C47.5791 46.7176 48.0006 45.6381 48.0006 44.5125C48.0006 43.3869 47.5791 42.3074 46.829 41.5115C46.0788 40.7156 45.0613 40.2684 44.0004 40.2684C42.9395 40.2684 41.9221 40.7156 41.1719 41.5115C40.4217 42.3074 40.0003 43.3869 40.0003 44.5125C40.0003 45.6381 40.4217 46.7176 41.1719 47.5136C41.9221 48.3095 42.9395 48.7566 44.0004 48.7566Z"
+                fill="black"
+              />
+            </svg>
+          </div>
+          <div class="footer__logo-text">Hair & There</div>
+        </div>
+        <div class="footer__text">
+          Адрес: Винница, улица Соборная, 76<br />
+          Телефон: +38 095 727 06 06<br />
+          Электронная почта: info@hairthere.com
+        </div>
+        <div class="footer__networks">
+          <div class="footer__networks-text">Мы в соцсетях</div>
+          <div class="footer__networks-icon">
+            <a class="footer__link" href="#">
+              <svg
+                class="footer__icon"
+                viewBox="0 0 512 512"
+                width="30px"
+                height="30px"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <path
+                  d="M501.303,132.765c-5.887,-22.03 -23.235,-39.377 -45.265,-45.265c-39.932,-10.7 -200.038,-10.7 -200.038,-10.7c0,0 -160.107,0 -200.039,10.7c-22.026,5.888 -39.377,23.235 -45.264,45.265c-10.697,39.928 -10.697,123.238 -10.697,123.238c0,0 0,83.308 10.697,123.232c5.887,22.03 23.238,39.382 45.264,45.269c39.932,10.696 200.039,10.696 200.039,10.696c0,0 160.106,0 200.038,-10.696c22.03,-5.887 39.378,-23.239 45.265,-45.269c10.696,-39.924 10.696,-123.232 10.696,-123.232c0,0 0,-83.31 -10.696,-123.238Zm-296.506,200.039l0,-153.603l133.019,76.802l-133.019,76.801Z"
+                />
+              </svg>
+            </a>
+            <a class="footer__link" href="#">
+              <svg
+                class="footer__icon"
+                viewBox="0 0 56.693 56.693"
+                height="30px"
+                width="30px"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <path
+                  d="M40.43,21.739h-7.645v-5.014c0-1.883,1.248-2.322,2.127-2.322c0.877,0,5.395,0,5.395,0V6.125l-7.43-0.029  c-8.248,0-10.125,6.174-10.125,10.125v5.518h-4.77v8.53h4.77c0,10.947,0,24.137,0,24.137h10.033c0,0,0-13.32,0-24.137h6.77  L40.43,21.739z"
+                />
+              </svg>
+            </a>
+            <a class="footer__link" href="#">
+              <svg
+                class="footer__icon"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                width="30px"
+                height="30px"
+                viewBox="0 0 56.7 56.7"
+                enable-background="new 0 0 56.7 56.7"
+                xml:space="preserve"
+              >
+                <path
+                  d="M28.2,16.7c-7,0-12.8,5.7-12.8,12.8s5.7,12.8,12.8,12.8S41,36.5,41,29.5S35.2,16.7,28.2,16.7z M28.2,37.7
+                     c-4.5,0-8.2-3.7-8.2-8.2s3.7-8.2,8.2-8.2s8.2,3.7,8.2,8.2S32.7,37.7,28.2,37.7z"
+                />
+                <circle cx="41.5" cy="16.4" r="2.9" />
+                <path
+                  d="M49,8.9c-2.6-2.7-6.3-4.1-10.5-4.1H17.9c-8.7,0-14.5,5.8-14.5,14.5v20.5c0,4.3,1.4,8,4.2,10.7c2.7,2.6,6.3,3.9,10.4,3.9
+                  h20.4c4.3,0,7.9-1.4,10.5-3.9c2.7-2.6,4.1-6.3,4.1-10.6V19.3C53,15.1,51.6,11.5,49,8.9z M48.6,39.9c0,3.1-1.1,5.6-2.9,7.3
+                  s-4.3,2.6-7.3,2.6H18c-3,0-5.5-0.9-7.3-2.6C8.9,45.4,8,42.9,8,39.8V19.3c0-3,0.9-5.5,2.7-7.3c1.7-1.7,4.3-2.6,7.3-2.6h20.6
+                  c3,0,5.5,0.9,7.3,2.7c1.7,1.8,2.7,4.3,2.7,7.2V39.9L48.6,39.9z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
